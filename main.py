@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def main():
-    return {"Lucky": "Hello"}
+    return {"Lucky": "Hello", "SSSSS": "DDDDDDD"}
 
 @app.get("/lucky")
 async def getLucky():
