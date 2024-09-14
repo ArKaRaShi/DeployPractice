@@ -10,7 +10,7 @@ async def main():
 
 @app.get("/lucky")
 async def getLucky():
-    return {"WWWWWWWWWW": "ARRRRRRR"}
+    return {"WWWWWWWWWW": "ARRRdsadsRRRR"}
 
 
 nest_asyncio.apply()
